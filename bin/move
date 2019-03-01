@@ -8,4 +8,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 puts "Where would you like to go?"
 space = (gets.strip)
-move(board, space, player)
+move(board, space)
